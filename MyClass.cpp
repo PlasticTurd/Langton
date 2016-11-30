@@ -1,16 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/* 
- * File:   MyClass.cpp
- * Author: Jamie
- * 
- * Created on November 30, 2016, 1:12 PM
- */
-
 #include "MyClass.h"
 #include <iostream>
 using namespace std;
@@ -53,8 +40,7 @@ void MyClass::logic(int grid[10][10], int dir[4][2])
         {
             dir2 = 4;
         }
-        
-        
+       
        grid[x2][y2] = 2;
        grid[x][y] = trail;
        x = x2;
@@ -69,10 +55,7 @@ void MyClass::logic(int grid[10][10], int dir[4][2])
                 cout << endl;
             }
        }
-       
     }
-    
-    
 }
 
     
