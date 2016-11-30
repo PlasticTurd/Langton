@@ -12,6 +12,7 @@
  */
 
 #include "MyClass.h"
+#include <iostream>
 using namespace std;
 
 void MyClass::logic(int *grid, int *dir)

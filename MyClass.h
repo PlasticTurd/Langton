@@ -14,7 +14,7 @@
 class MyClass 
 {
 public:
-    void logic();
+    void logic(int *grid, int *dir);
 };
 
 
