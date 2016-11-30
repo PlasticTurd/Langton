@@ -29,7 +29,7 @@ void MyClass::logic(int *grid, int *dir)
         cin >> newround;
         for (int t = 0; t < 10; t++)
         {
-            cout << grid[t];
+            cout << t;
         }
     }
 }

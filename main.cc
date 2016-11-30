@@ -52,6 +52,6 @@ int main()
         {0, -1},
         {-1, 0}
     };
-    MyClass logic;
+   MyClass logic(int *grid, int *dir); 
 }
 
