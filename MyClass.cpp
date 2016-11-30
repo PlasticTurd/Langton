@@ -24,12 +24,12 @@ void MyClass::logic(int *grid, int *dir)
     cin >> rounds;
     for (int i = 0; i < rounds; i++)
     {
-        int newround;
-        cout << " ";
-        cin >> newround;
-        for (int t = 0; t < 10; t++)
-        {
-            cout << t;
+        //int newround;
+        //cout << " ";
+        //cin >> newround;
         }
-    }
+    for (int t = 0; t < 10; t++)
+        {
+            cout << grid[t];
+        }
 }
