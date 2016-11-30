@@ -27,7 +27,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  */
-
+#include "MyClass.h"
 #include <iostream>
 using namespace std;
 
@@ -54,5 +54,4 @@ int main()
     };
     MyClass logic;
 }
-
 
