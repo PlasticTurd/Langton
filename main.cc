@@ -53,7 +53,7 @@ int main()
         {-1, 0}
     };
     MyClass MC;
-    MC.logic(*grid, *dir);
+    MC.logic(grid, dir);
     
 }
 
